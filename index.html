@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1544a0" />
+    <title>Social Fresco | Brand Strategy & Social Media</title>
+    <meta name="description" content="Social Fresco is a brand strategy and social media agency. We build social media systems that feel aligned, intentional, and sustainable—from brand strategy to content and growth." />
+    <meta name="keywords" content="brand strategy, social media agency, content creation, social media marketing, brand growth" />
+    <meta name="author" content="Social Fresco" />
+    <link rel="canonical" href="https://socialfresco.in/" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Social Fresco | Brand Strategy & Social Media" />
+    <meta property="og:description" content="We build social media systems that feel aligned, intentional, and sustainable. From brand strategy to content and growth." />
+    <meta property="og:url" content="https://socialfresco.in/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Social Fresco" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Social Fresco | Brand Strategy & Social Media" />
+    <meta name="twitter:description" content="We build social media systems that feel aligned, intentional, and sustainable." />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              fresco: {
+                blue: '#1544a0', // Royal Blue
+                yellow: '#F5BE0B', // Golden Yellow
+                cream: '#FEFEFA', // Off-white Cream
+                brown: '#5C4033', // Dark Brown
+                lightblue: '#A7C7E7', // Pastel Blue
+                green: '#556B2F', // Olive Green
+              }
+            },
+            fontFamily: {
+              serif: ['"Poppins"', 'sans-serif'], // Replaces Bodoni with Poppins for main Display/Headings
+              heading: ['"Poppins"', 'sans-serif'], // Replaces Nunito with Poppins for UI elements
+              script: ['"Pinyon Script"', 'cursive'], // Pinyon Script for accents
+              sans: ['"Montserrat"', 'sans-serif'], // Replaces Alegreya with Montserrat for Body text
+              body: ['"Montserrat"', 'sans-serif'],
+            },
+            animation: {
+              blob: "blob 7s infinite",
+              "fade-in-down": "fadeInDown 0.5s ease-out",
+              "fade-in-up": "fadeInUp 0.8s ease-out forwards",
+            },
+            keyframes: {
+              blob: {
+                "0%": {
+                  transform: "translate(0px, 0px) scale(1)",
+                },
+                "33%": {
+                  transform: "translate(30px, -50px) scale(1.1)",
+                },
+                "66%": {
+                  transform: "translate(-20px, 20px) scale(0.9)",
+                },
+                "100%": {
+                  transform: "translate(0px, 0px) scale(1)",
+                },
+              },
+              fadeInDown: {
+                  "0%": {
+                      opacity: "0",
+                      transform: "translateY(-10px)"
+                  },
+                  "100%": {
+                      opacity: "1",
+                      transform: "translateY(0)"
+                  }
+              },
+              fadeInUp: {
+                  "0%": {
+                      opacity: "0",
+                      transform: "translateY(30px)"
+                  },
+                  "100%": {
+                      opacity: "1",
+                      transform: "translateY(0)"
+                  }
+              }
+            },
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Pinyon+Script&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Poppins', sans-serif;
+      }
+      .font-heading {
+        font-family: 'Poppins', sans-serif;
+      }
+      .font-script {
+        font-family: 'Pinyon Script', cursive;
+      }
+      .gradient-text {
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      .animation-delay-2000 {
+        animation-delay: 2s;
+      }
+      .animation-delay-4000 {
+        animation-delay: 4s;
+      }
+      /* Chatbot as floating widget – main content (Navbar + Hero) stays dominant */
+      .chatbot-float {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        z-index: 9998;
+        width: auto;
+        max-width: 420px;
+        height: auto;
+        max-height: min(85vh, 600px);
+        pointer-events: none;
+        overflow: hidden;
+      }
+      .chatbot-float elevenlabs-convai {
+        pointer-events: auto;
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <!-- JSON-LD structured data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Social Fresco",
+      "url": "https://socialfresco.in",
+      "description": "Brand strategy and social media agency. We build social media systems that feel aligned, intentional, and sustainable.",
+      "email": "hello@socialfresco.in",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Creative Blvd",
+        "addressLocality": "Design City"
+      }
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-xwvo9_ui.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DPKIONTy.css">
+  </head>
+  <body class="bg-fresco-cream text-gray-900 antialiased">
+    <div id="root"></div>
+    <div class="chatbot-float" aria-label="Chat widget">
+      <elevenlabs-convai agent-id="agent_6601kgqt6v97f7ct5027pdqbt2bw"></elevenlabs-convai>
+    </div>
+  </body>
+</html>
