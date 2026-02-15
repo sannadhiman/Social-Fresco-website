@@ -1,11 +1,13 @@
-/* Base styles – Tailwind is loaded via CDN in index.html */
-@layer base {
-  html {
-    scroll-behavior: smooth;
-  }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base tweaks */
+html {
+  scroll-behavior: smooth;
 }
 
-/* Scroll margin so fixed navbar doesn’t cover section headings */
+/* Scroll margin for fixed navbar */
 #hero,
 #portfolio,
 #testimonials,
